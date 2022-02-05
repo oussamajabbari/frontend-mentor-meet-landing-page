@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo {
+        width: 7.42rem;
+        height: 1.75rem;
+        margin-top: 3rem;
+    }
+
+    .heroes-image {
+        width: 110%;
+    }
+}
