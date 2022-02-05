@@ -13,7 +13,29 @@ h2 {
   font-size: 2.75rem;
 }
 
+.overline {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 500;
+}
+
+button {
+  border-radius: 29px;
+  height: 3.625rem;
+  font-weight: 900;
+  color: white;
+}
+
+button .version {
+  color: #8fe3f9;
+}
+
+.button-1 {
+  background-color: #4d96a9;
+}
+
 body {
+  padding: 0 1.5rem;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,12 +56,16 @@ body .logo {
 }
 
 body #heroes-image {
-  width: 110%;
+  width: 127%;
   margin-top: 3.375rem;
 }
 
 body #header-1 {
   width: 17.5rem;
   margin-top: 3rem;
+}
+
+body p {
+  color: #87879d;
 }
 /*# sourceMappingURL=style.css.map */

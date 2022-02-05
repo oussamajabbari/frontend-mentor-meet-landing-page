@@ -7,39 +7,65 @@ $manatee: #87879d;
 $alabaster: #fafafa;
 
 body {
-    font-family: "Red Hat Display", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
 }
 
 h1 {
-    font-size: 2.5rem;
-    font-weight: 900;
-    line-height: 2.75rem;
-    color: $ebony-clay;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 2.75rem;
+  color: $ebony-clay;
 }
 
 h2 {
-    font-size: 2.75rem;
+  font-size: 2.75rem;
+}
+
+.overline {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 500;
+}
+
+button {
+  border-radius: 29px;
+  height: 3.625rem;
+  font-weight: 900;
+  color: white;
+
+  .version {
+    color: $malibu;
+  }
+}
+
+.button-1 {
+  background-color: $hippie-blue;
 }
 
 body {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding: 0 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    .logo {
-        width: 7.42rem;
-        height: 1.75rem;
-        margin-top: 3rem;
-    }
+  .logo {
+    width: 7.42rem;
+    height: 1.75rem;
+    margin-top: 3rem;
+  }
 
-    #heroes-image {
-        width: 110%;
-        margin-top: 3.375rem;
-    }
+  #heroes-image {
+    width: 127%;
+    margin-top: 3.375rem;
+  }
 
-    #header-1 {
-        width: 17.5rem;
-        margin-top: 3rem;
-    }
+  #header-1 {
+    width: 17.5rem;
+    margin-top: 3rem;
+  }
+
+  p {
+    color: $manatee;
+  }
 }
