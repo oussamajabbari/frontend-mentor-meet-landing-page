@@ -1,3 +1,26 @@
+$hippie-blue: #4d96a9;
+$malibu: #8fe3f9;
+$deluge: #855fb1;
+$mauve: #d9b8ff;
+$ebony-clay: #28283d;
+$manatee: #87879d;
+$alabaster: #fafafa;
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 2.75rem;
+    color: $ebony-clay;
+}
+
+h2 {
+    font-size: 2.75rem;
+}
+
 body {
     text-align: center;
     display: flex;
@@ -10,7 +33,13 @@ body {
         margin-top: 3rem;
     }
 
-    .heroes-image {
+    #heroes-image {
         width: 110%;
+        margin-top: 3.375rem;
+    }
+
+    #header-1 {
+        width: 17.5rem;
+        margin-top: 3rem;
     }
 }
